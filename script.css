@@ -1,0 +1,288 @@
+body {
+    background-color: green (32, 32, 32);
+    background-image: url(mod2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: rgb(230, 230, 230);
+    text-align: center;
+    font-size: 0.7em;
+}
+
+#restart {
+
+    margin-top: 0;
+}
+
+.title{
+    background: rgb(223, 10, 202);
+    color: #06b4ed;
+    border-radius: 5px;
+    box-shadow: 1px 6px 32px 14px rgba(191, 191, 191, 0.52);
+    -webkit-box-shadow: 1px 6px 32px 14px rgba(0, 0, 0, 0.52);
+    -moz-box-shadow: 1px 6px 32px 14px rgba(246, 217, 217, 0.52);
+    line-height: 1em;
+    top: 0;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-bottom: 5px;
+    font-size:2.8em;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+}
+
+.title:hover {
+  background-color: #8243f0;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+
+}
+
+h3 {
+    border-radius: 5px;
+    font-size: 1.rem;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 10px 10px 2px 10px;
+}
+
+
+
+
+.th_list {
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.x {
+    color: #FF7000;
+    position: relative;
+    top: -8px;
+    font-size: 5.2em;
+    cursor: default;
+}
+
+.o {
+    color: aquamarine;
+    position: relative;
+    top: -7px;
+    font-size: 5.0em;
+    cursor: default;
+}
+
+#okBtn {
+   width: 150px;
+   height: 30px;
+   border-radius: 10px;
+   background-color: rgb(255, 255, 255);
+}
+
+table {
+    margin: 2% auto;
+    /* background-color: rgb(0, 0, 0); */
+    
+}
+
+#table_game {
+    position: relative;
+    font-size: 120px;
+    margin: 1% auto;
+  
+}
+
+.td_game {
+    background-image: #413543;
+    border: 4px solid rgb(226,12,124,1);
+    box-shadow: 3px 6px 90px -13px rgba(0,0,0,1) inset;
+    -webkit-box-shadow: 3px 6px 90px -13px rgba(0,0,0,1) inset;
+    -moz-box-shadow: 3px 6px 90px -13px rgba(0,0,0,1) inset;
+    box-shadow: 1px 6px 32px 14px rgba(191, 191, 191, 0.52);
+    -webkit-box-shadow: 1px 6px 32px 14px rgba(0, 0, 0, 0.52);
+    -moz-box-shadow: 1px 6px 32px 14px rgba(246, 217, 217, 0.52);
+    width: 90px;
+    height: 90px;
+    padding: 0;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.fixed {
+    background: linear-gradient(90deg, rgba(108,53,144,1) 0%, rgba(85,93,233,1) 41%, rgba(201,102,240,1) 100%);
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.computer {
+    
+    background: rgb(223,56,10);
+    background: linear-gradient(90deg, rgba(223,56,10,1) 0%, rgba(226,12,124,1) 41%, rgba(224,0,39,1) 100%);
+    box-shadow: 1px 6px 32px 7px rgba(0,0,0,0.52);
+    -webkit-box-shadow: 1px 6px 32px 7px rgba(0,0,0,0.52);
+    -moz-box-shadow: 1px 6px 32px 7px rgba(0,0,0,0.52);
+    width: 100px;
+    color: #00f9dc;
+    height: 50px;
+    border: 4px solid rgb(226,12,124,1);
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+}
+
+.draw {
+    background: rgb(223,56,10);
+    background: linear-gradient(90deg, rgba(223,56,10,1) 0%, rgba(226,12,124,1) 41%, rgba(224,0,39,1) 100%);
+    box-shadow: 1px 6px 32px 7px rgba(0,0,0,0.52);
+    -webkit-box-shadow: 1px 6px 32px 7px rgba(0,0,0,0.52);
+    -moz-box-shadow: 1px 6px 32px 7px rgba(0,0,0,0.52);
+    width: 100px;
+    color: #00f9dc;
+    height: 50px;
+    border: 4px solid rgb(226,12,124,1);
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+}
+
+.player {
+    background: rgb(223,56,10);
+    background: linear-gradient(90deg, rgba(223,56,10,1) 0%, rgba(226,12,124,1) 41%, rgba(224,0,39,1) 100%);
+    width: 100px;
+    color: #00f9dc;
+    height: 50px;
+    border: 4px solid rgb(226,12,124,1);
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+}
+
+.td_list {
+    /* width: 80px;
+    height: 80px; */
+    background-color: none;
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bold;  box-shadow: 1px 6px 32px 7px rgba(3, 240, 252, 0.52);
+    -webkit-box-shadow: 1px 6px 32px 7px rgba(2, 247, 247, 0.52);
+    -moz-box-shadow: 1px 6px 32px 7px rgba(0, 251, 255, 0.52);
+}
+
+.container {
+   
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 190px;
+    margin-right: 190px;
+}
+
+.th_list {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+    /* text-decoration: underline; */
+}
+
+
+.x {
+    color: #FF7000;
+    position: relative;
+    top: -8px;
+    font-size: 5.2em;
+    cursor: default;
+}
+
+.o {
+    color: aquamarine;
+    position: relative;
+    top: -7px;
+    font-size: 5.0em;
+    cursor: default;
+}
+
+#okBtn {
+   width: 150px;
+   height: 30px;
+   border-radius: 10px;
+   margin-top: 15px;
+   background-color: #58287F;
+   color: #00f9dc;
+}
+
+
+/* modal background */
+.modal {
+    background-image: url(mod1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #BFACE2;
+}
+
+/* modal content */
+.modal-content {
+    background-color: #62CDFF;
+    color: #3F497F;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    /* 16 % from the top and centered */
+    margin: 16% auto;
+    padding: 20px;
+    box-shadow: 1px 6px 32px 7px rgba(0,0,0,0.52);
+    -webkit-box-shadow: 1px 6px 32px 7px rgba(0,0,0,0.52);
+    -moz-box-shadow: 1px 6px 32px 7px rgba(0,0,0,0.52);
+    border: 2px solid rgb(0, 225, 255);
+    border-radius: 10px;
+    width: 380px;
+    max-width: 80%;
+ 
+}
+
+.modal-content p {
+    margin: 0;
+    padding: 0;
+}
+
+/* close button for modal dialog */
+.close {
+    color: rgb(170, 170, 170);
+    float: right;
+    position: relative;
+    top: -25px;
+    right: -10px;
+    font-size: 34px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.win-color {
+    background: #ff0000;
+}

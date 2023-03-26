@@ -1,6 +1,6 @@
 body {
     background-color: green (32, 32, 32);
-    background-image: url(mod2.jpg);
+    background-image: url(./images/mod2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -225,7 +225,7 @@ table {
 
 /* modal background */
 .modal {
-    background-image: url(mod1.jpg);
+    background-image: url(./images/mod1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
